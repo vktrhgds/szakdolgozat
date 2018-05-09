@@ -1,0 +1,6 @@
+Felhasználó felhasználóneve: emailproba
+Jelszó: proba1234
+Kölcsönzés után, vagy jelszó megváltoztatása után
+az alábbi e-mail címre jön az üzenet:
+emailproba123456@gmail.com
+jelszó az email címhez: emailproba123456.

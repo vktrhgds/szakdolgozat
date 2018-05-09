@@ -1,0 +1,346 @@
+
+
+
+
+/*
+	version: 1.0.0
+	date: 2018.01.20.
+	author: Hegedűs Viktor
+*/
+
+ #input[type=text] {
+	background: #606060;
+	background-size: 28px;
+	border: 1px solid white;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	width: 70%;
+	color: gold;
+	font-family: 'Raleway', serif;
+	text-align: left;
+	padding-left: 32px;
+	
+	font-size: 20px;
+ }
+ 
+  #input[type=number] {
+	background: #606060;
+	background-size: 28px;
+	border: 1px solid white;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	width: 70%;
+	color: gold;
+	font-family: 'Raleway', serif;
+	text-align: left;
+	padding-left: 32px;
+	
+	font-size: 20px;
+ }
+ 
+  #input[type=file] {
+	width: 70%;
+	padding-left: 32px;
+	font-size: 14px;
+	cursor: pointer;
+ }
+ 
+  #input[type=password] {
+	background: url("pictures2/password_icon.png") no-repeat 0 0;
+	background-size: 26px;
+	border:none;
+	border-bottom: 1px solid white;
+	width: 70%;
+	color: gold;
+	font-family: 'Raleway', serif;
+	text-align: left;
+	padding-left: 32px;
+	font-size: 20px;
+ }
+ 
+ #input[type=email] {
+	background: url("pictures2/email_icon.png") no-repeat 0 0;
+	background-size: 26px;
+	border:none;
+	border-bottom: 1px solid white;
+	width: 70%;
+	color: gold;
+	font-family: 'Raleway', serif;
+	text-align: left;
+	padding-left: 32px;
+	font-size: 20px;
+ }
+ 
+ 
+  #input[type=tel] {
+	background: url("pictures2/phone.png") no-repeat 0 0;
+	background-size: 26px;
+	border:none;
+	border-bottom: 1px solid white;
+	width: 70%;
+	color: gold;
+	font-family: 'Raleway', serif;
+	text-align: left;
+	padding-left: 32px;
+	font-size: 20px;
+ }
+ 
+#input[type=date] {
+	background: url("pictures2/date.png") no-repeat 0 0;
+	background-size: 26px;
+	border:none;
+	border-bottom: 1px solid white;
+	width: 70%;
+	color: gold;
+	font-family: 'Raleway', serif;
+	text-align: left;
+	padding-left: 32px;
+	font-size: 20px;
+ }
+ 
+ 
+ #input[type=submit]{
+	 font-family: 'Raleway', serif;
+	border-radius: 5px;
+	font-family: 'Raleway', serif;
+	text-align: center;
+	font-size: 24px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	padding: 0px;
+	font-weight: bold;
+	background: linear-gradient(rgba(170,135,0, 1), rgba(56, 43, 1, 1));
+	border: none;
+    height: 37px;
+    width: 100%;
+	padding: 0px;
+ }
+ 
+ #input[type=submit]:hover{
+	background: linear-gradient(rgba(102, 78, 0, 1), rgba(40, 31, 1, 1));
+	opacity: 1;
+    transition: all 0.5s;
+	/* box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); */
+}
+
+
+#input[type=submit]:active{
+	 transform: translateY(1px);
+}
+
+#input[type=password]:focus{
+	outline:none !important;
+	border:none;
+	transition: all 0.2s;
+	border-bottom: 3px solid white;
+}
+#input[type=text]:focus{
+	outline:none !important;
+	border:none;
+	border-bottom: 3px solid white;
+	
+}
+#input[type=email]:focus{
+	outline: none !important;
+	border:none;
+	border-bottom: 3px solid white;
+	
+}
+
+#input[type=number]:focus{
+	outline:none !important;
+	border:none;
+	border-bottom: 3px solid white;
+	
+}
+
+#input[type=date]:focus{
+	outline:none !important;
+	border:none;
+	border-bottom: 3px solid white;
+	
+}
+
+
+#admintable{
+	font-family: 'Raleway', serif;
+	text-align: left;
+	font-size: 38px;
+	color: #fff;
+	-moz-border-radius: 1px;
+    -webkit-border-radius: 12px;
+	padding: 10px 20px 20px 20px;
+	background: rgb(88, 88, 88); /* Fallback for older browsers without RGBA-support */
+	background: linear-gradient(to bottom, rgba(68,68,68, 0.3), rgba(68,68,68, 0.3)); /*Standard*/
+	background: -webkit-linear-gradient(to bottom, rgba(88, 88, 88, 1), rgba(88, 88, 88, 0.9));
+	background: -o-linear-gradient(to bottom, rgba(88, 88, 88, 1), rgba(88, 88, 88, 0.9));
+	background: -moz-linear-gradient(to bottom, rgba(88, 88, 88, 1), rgba(88, 88, 88, 0.9));
+   /* background: rgba(36, 51, 60, 0.7);*/
+   z-index: 0;
+}
+
+
+
+.navbar {
+    background: linear-gradient(to bottom, rgba(94,94,94, 1), rgba(10,10,10, 1)); /*Standard*/
+	background: -webkit-linear-gradient(to bottom, rgba(54,54,54, 1), rgba(10,10,10, 1));
+	background: -o-linear-gradient(to bottom, rgba(54,54,54, 1), rgba(10,10,10, 1));
+	background: -moz-linear-gradient(to bottom, rgba(54,54,54, 1), rgba(10,10,10, 1));
+    font-family: Arial;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	z-index: 1;
+}
+
+.navbar input[type = text]{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding-left: 5px;
+	margin-top: 15px;
+	margin-left: 15px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+.navbar input[type=text]:focus {
+    width: 30%;
+}
+
+
+
+.navbar form .input[type = submit]{
+	font-family: 'Raleway', serif;
+	text-align: right;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	padding: 6px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	background: linear-gradient(rgba(180,4,4, 1), rgba(50, 1, 1, 1));
+	border: none;
+	margin-top: 14px;
+	margin-right: 20px;
+	display: inline-block;
+	border-radius: 3;
+	width: 130px;
+	float: right;
+	
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.navbar div ul li form input[type = submit]{
+	float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+	z-index: 1;
+	border: none;
+	width: 200px;
+	cursor: pointer;
+}
+
+
+
+.navbar div ul li form input[type = submit]:hover{
+	border-bottom: 2px solid white;
+	background: linear-gradient(rgba(255,0,0, 1), rgba(138, 8, 8, 1));
+	transition: all 0.3s;
+	border-radius: 0;
+	height: 40px;
+}
+
+
+
+.navbar form .input[type = submit]:hover{
+	
+}
+
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+	z-index: -1;
+}
+
+.dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #A4A4A4;
+	border-bottom: 2px solid #DF0101;
+	transition: 0.4s;
+}
+
+.navbar a:hover{
+	background-color: #DF0101;
+	transition: 0.3s;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D8D8D8;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 2;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	z-index: -1;
+}
+
+.dropdown-content a:hover {
+    background-color: #545454;
+	color: white;
+	border-bottom: 2px solid red;
+}
+
+.show {
+    display: block;
+}
+
+

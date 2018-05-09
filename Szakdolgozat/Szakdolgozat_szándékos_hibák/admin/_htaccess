@@ -1,0 +1,8 @@
+RewriteEngine On
+ErrorDocument 404 "<html><head <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/> <meta HTTP-EQUIV='Content-Language' Content='hu'></head><body = bgcolor= '#424242' style = 'font-size: 50px; color: white;text-align: center; margin-top: 20%;'/><b><font style = 'font-size: 70px'>404 HIBA</font></b></br> A keresett oldal nem talalhato. <a style = 'text-decoration: none; color: red;'href = '../admin/adminindex.php'>Vissza a fooldalra</a></body></html>"
+
+
+ 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
